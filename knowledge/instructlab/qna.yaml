@@ -1,0 +1,30 @@
+version: 2
+task_description: 'Teach the model about what InstructLab is'
+created_by: wj-tan
+domain: technology
+seed_examples:
+  - question: |
+      What is InstructLab?
+    answer: |
+      InstructLab, by IBM and Red Hat, is an open-source project that enhances LLMs for gen AI cost effectively.
+  - question: |
+      Who created InstructLab?
+    answer: |
+      InstructLab is created by IBM and Red Hat.
+  - question: |
+      What does InstructLab do?
+    answer: |
+      It improves an LLM with much less human data and computing power than usually needed for model retraining.
+  - question: |
+      How does InstructLab work?
+    answer: |
+      Taxonomy-driven data curation,Large-scale synthetic data generation,Iterative,large-scale alignment tuning.
+  - question: |
+      What are the components of the InstructLab project?
+    answer: |
+      Taxonomy, Command-line interface, Model training infrastructure.
+document:
+  repo: https://github.com/wj-tan/instructlab-knowledge.git
+  commit: fef95b6
+  patterns:
+    - what-is-instructlab.md
